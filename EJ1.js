@@ -5,7 +5,7 @@
 4) Programa una función que repita un texto X veces, pe. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.
 */
 
-const str = "Uno dos tres";
+{ const str = "Uno dos tres";
 
 try {
     if(typeof str === "string") {
@@ -15,4 +15,15 @@ try {
     }
 } catch (error) {
     console.log(`Se ha encontrado un ${error}`);
+}
+
+}
+{
+const recortador = function(str,indice) {
+    console.log(`${str}`.substring(null,`${indice}`))
+}
+
+const str = "Hola Mundo",
+indice = 4;
+recortador(str,indice);
 }
